@@ -6,7 +6,8 @@
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://docker.com)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?logo=openai&logoColor=white)](https://openai.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
+[![Health Hub](https://img.shields.io/badge/Security-Health_Hub_Hardened-blue)](https://github.com/Raphasha27/Health-Hub)
+[![Status](https://img.shields.io/badge/Status-Autonomous-success?style=flat&logo=github-actions&logoColor=white&color=2ea44f)](https://github.com/Raphasha27/Health-Hub)
 ---
 
 ## 🧬 Project Overview (Unified Data Architecture)
