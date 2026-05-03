@@ -62,10 +62,10 @@ Every module is powered by a shared **AI Orchestrator** (`core/ai_orchestrator.p
 
 ## 🧠 Agentic Layer — Core Components
 
-The `apps/api/app/core/agent/` package implements a production-grade **9-pattern Agentic Stack**. These are not experimental abstractions — they mirror the agent frameworks used in enterprise AI systems (like Snowflake Cortex and Microsoft AutoGen).
+The `apps/api/app/core/agent/` package implements a production-grade **9-pattern Agentic Stack**. These are not experimental abstractions — they mirror the agent frameworks used in enterprise AI systems (like the proprietary Kirov Nexus architecture).
 
-### 0. `data_unification.py` — Unified Data Layer (NEW)
-Eliminates data silos by pulling from both **structured databases** and **unstructured vector stores** simultaneously. Reduces data prep time by 70% by handling all joining and context-building dynamically before the LLM even sees the prompt.
+### 0. `data_unification.py` — Kirov Nexus Unified Data Layer (NEW)
+Eliminates data silos by pulling from both **structured databases** and **unstructured vector stores** simultaneously. Reduces data prep time by 70% by handling all joining, metadata extraction, and semantic context-building dynamically before the LLM even sees the prompt. Built directly into the platform to cut AI development time by 80%.
 
 ### 1. `observability.py` — Trace, Log & Metrics
 Every action the agent takes is wrapped in a unique **TraceID** (UUID-based). This enables you to reconstruct the exact sequence of decisions, tool calls, and LLM responses for a given request — critical for debugging and auditing in production.

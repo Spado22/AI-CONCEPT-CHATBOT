@@ -3,7 +3,7 @@ import logging
 
 class DataUnifierAgent:
     """
-    Data Unification Agent (Cortex-style architecture).
+    Data Unification Agent (Kirov Nexus AI architecture).
     Eliminates data silos by unifying structured (PostgreSQL/SQL) 
     and unstructured (PDFs, docs, text) data in one place.
     Reduces data prep time by 70% by seamlessly routing and merging queries.
