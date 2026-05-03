@@ -161,7 +161,7 @@ export default function NationalControlTowerPage() {
                         <ShieldAlert size={28} />
                         <div>
                            <p className="text-[10px] font-black uppercase tracking-widest text-indigo-200 leading-none">Resource Reallocation AI</p>
-                           <p className="text-sm font-bold mt-1">Deploying Maintenance Fleet to Joburg Sector</p>
+                           <p className="text-sm font-bold mt-1">Deploying Maintenance Fleet to Tshwane/Ekurhuleni Sector</p>
                         </div>
                     </div>
                  </div>
