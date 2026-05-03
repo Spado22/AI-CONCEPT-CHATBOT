@@ -31,7 +31,7 @@ class CrisisPredictionEngine:
 
         # 4. Final Crisis Score Calculation
         # Score = (Velocity * 0.4) + (Repeat * 0.4) + (Drift * 0.2)
-        total_score = (velocity * 30) + (repeat * 40) + (drift * 10)
+        total_score = (velocity * 30) + (repeat_score * 40) + (drift * 10)
         total_score = min(max(total_score, 0), 100) # Clamp 0-100
 
         risk_level = "GREEN"

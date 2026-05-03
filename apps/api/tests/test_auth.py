@@ -5,7 +5,7 @@ import pytest
 
 
 REGISTER_PAYLOAD = {
-    "email": "test@verifyza.co.za",
+    "email": "test@queueless.co.za",
     "full_name": "Test User",
     "password": "Secure@123",
 }

@@ -124,7 +124,7 @@ export default function ReportPage() {
                         <input
                           type="text"
                           className="w-full bg-slate-950 border border-white/10 rounded-2xl px-12 py-4 text-sm text-white placeholder-slate-700 focus:border-indigo-500 outline-none transition-all"
-                          placeholder="e.g. City of Joburg"
+                          placeholder="e.g. City of Tshwane / Ekurhuleni"
                           value={municipality}
                           onChange={(e) => setMunicipality(e.target.value)}
                         />
