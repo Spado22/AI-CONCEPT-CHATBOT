@@ -23,6 +23,7 @@ from .hitl import HumanInTheLoop
 from .memory import AgentMemory, get_agent_memory
 from .web_search import WebSearchTool
 from .multi_agent import MultiAgentCoordinator, AgentTask
+from .data_unification import DataUnifierAgent
 
 __all__ = [
     "AgentObserver",
@@ -35,4 +36,5 @@ __all__ = [
     "WebSearchTool",
     "MultiAgentCoordinator",
     "AgentTask",
+    "DataUnifierAgent",
 ]
